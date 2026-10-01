@@ -1,22 +1,18 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.png" alt="Oluwaseun Adekoya — Robotics Engineer, Ph.D. Candidate" width="100%">
+</p>
 
-# Oluwaseun A. Adekoya
-
-### Robotics Engineer · Ph.D. Candidate, Mechanical Engineering — University of Cincinnati
-
-*Intelligent motion planning & control for safe human–robot collaboration — the functional-safety side of physical AI*
-
-<a href="https://www.linkedin.com/in/oluwaseun-abiodun-adekoya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:adekoyoa@mail.uc.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://scholar.google.com/citations?hl=en&user=mF_y8V0AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Scholar"></a>
-
-</div>
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=en&user=mF_y8V0AAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=555555" alt="Google Scholar"></a>
+  <a href="https://www.linkedin.com/in/oluwaseun-abiodun-adekoya/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=555555" alt="LinkedIn"></a>
+  <a href="mailto:adekoyoa@mail.uc.edu"><img src="https://img.shields.io/badge/Email-adekoyoa@mail.uc.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=555555" alt="Email"></a>
+</p>
 
 ---
 
 ## 👋 About
 
-I'm a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ years spanning robotic systems, advanced control, and manufacturing. My work lives where **intelligent control meets real hardware**, across three connected tracks:
+I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ years spanning robotic systems, advanced control, and manufacturing. My work lives where **intelligent control meets real hardware**, across three connected tracks:
 
 - 🤖 **Robotics & Motion Planning** — learning-based planning, collision avoidance, and safe human–robot collaboration for high-DOF manipulators
 - 🎛️ **Advanced Control** — Nonlinear MPC, Reinforcement Learning, Dynamic Programming, and impedance control for real dynamic systems
