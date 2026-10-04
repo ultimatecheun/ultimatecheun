@@ -18,7 +18,7 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 - 🎛️ **Advanced Control** — Nonlinear MPC, Reinforcement Learning, Dynamic Programming, and impedance control for real dynamic systems
 - ⚙️ **Design & Manufacturing** — CAD, prototyping, and Industry 4.0/5.0 process optimization
 
-🎓 Summa Cum Laude & Best Graduating Mechanical Engineer (FUTA, Nigeria) · Based in Cincinnati, OH
+🎓 Summa Cum Laude & Best Graduating Student, Mechanical Engineering — FUTA, Nigeria (2018) · Based in Cincinnati, OH
 
 ---
 
