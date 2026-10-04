@@ -80,10 +80,10 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 
 **Under review / in preparation**
 
-- **A Comparative Study Between Dynamic Programming and Model Predictive Control for Closed-Loop Control Systems** — *Journal of Mechanical Design* (under review)
 - **Experimental Evaluation of RGB-D Sensing for Speed & Separation Monitoring in HRC Work Cells** — *Robotics and Computer-Integrated Manufacturing* (under review)
 - **Novel Methodology for 3D Vision-Guided Robotic Fastener Removal** — *Measurement* (under review)
-- **Critical Distance-Aware Collision Avoidance Using PRMs and Human-Aware Motion Planners (HAMP)** — *in preparation*
+- **A Comparative Study Between Dynamic Programming and Model Predictive Control for Closed-Loop Control Systems** — *Journal of Mechanical Design* (under review)
+- **Safety-Aware Collision Avoidance Using Probabilistic Roadmaps and Human-Aware Motion Planners** — *in preparation*
 
 **Published**
 
