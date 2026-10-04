@@ -24,12 +24,12 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 
 ## 🔬 Current Research
 
-**Dissertation —** *Intelligent Motion Planning and Control for Safe Human-Robot Collaboration Under Motion Uncertainty in Dynamic Environments.*
+**Dissertation —** *Safety-Aware Motion Planning and Control for Human–Robot Collaboration: From Industrial Manipulators to Mobile Teleoperated Robots.*
 
 | Focus area | What it tackles |
 |---|---|
 | 🧭 **Path Planning** | Sampling-based & human-aware planners (PRM, HAMP) for cluttered, dynamic scenes |
-| 🛡️ **Collision Avoidance & Safety** | Speed & separation monitoring, critical-distance-aware avoidance |
+| 🛡️ **Collision Avoidance & Safety** | Speed & separation monitoring, safety-aware avoidance |
 | ⚠️ **Danger-Zone Modeling** | Dynamic safety volumes around robot & human |
 | 🧠 **RL + NMPC** | Learning-augmented nonlinear predictive control |
 | 🤝 **Impedance Control** | Compliant contact for safe physical interaction |
@@ -81,6 +81,7 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 **Under review / in preparation**
 
 - **Experimental Evaluation of RGB-D Sensing for Speed & Separation Monitoring in HRC Work Cells** — *Robotics and Computer-Integrated Manufacturing* (under review)
+- **Formulation and Experimental Validation of Payload-Aware Dynamic Safety Volume for Speed and Separation Monitoring** — (under review)
 - **Novel Methodology for 3D Vision-Guided Robotic Fastener Removal** — *Measurement* (under review)
 - **A Comparative Study Between Dynamic Programming and Model Predictive Control for Closed-Loop Control Systems** — *Journal of Mechanical Design* (under review)
 - **Safety-Aware Collision Avoidance Using Probabilistic Roadmaps and Human-Aware Motion Planners** — *in preparation*
