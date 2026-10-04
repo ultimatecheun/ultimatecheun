@@ -78,10 +78,17 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 
 📚 **[Full list on Google Scholar →](https://scholar.google.com/citations?hl=en&user=mF_y8V0AAAAJ)**
 
+**Under review / in preparation**
+
 - **A Comparative Study Between Dynamic Programming and Model Predictive Control for Closed-Loop Control Systems** — *Journal of Mechanical Design* (under review)
 - **Experimental Evaluation of RGB-D Sensing for Speed & Separation Monitoring in HRC Work Cells** — *Robotics and Computer-Integrated Manufacturing* (under review)
 - **Novel Methodology for 3D Vision-Guided Robotic Fastener Removal** — *Measurement* (under review)
 - **Critical Distance-Aware Collision Avoidance Using PRMs and Human-Aware Motion Planners (HAMP)** — *in preparation*
+
+**Published**
+
+- **Safety Implications of Automated Guided Vehicles in the Modern Workplace: Increased or Decreased Potential Hazards?** — *World Journal of Engineering and Technology*, 14(1), 2026
+- **Unsupervised Learning Algorithms for Zero-Day Attacks in Intrusion Detection Systems** — *IEEE ICCMI*, 2024
 
 ---
 
