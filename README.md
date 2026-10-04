@@ -126,7 +126,7 @@ I am a Mechanical Engineering **Ph.D. candidate and Robotics Engineer** with 6+ 
 
 ## 🤝 Let's Connect
 
-Open to **robotics, controls, and automation roles — industry, research & development.**
+Open to **Summer 2027 internships and full-time roles from Dec 2027** in robotics, controls, and automation.
 
 <a href="https://www.linkedin.com/in/oluwaseun-abiodun-adekoya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:adekoyoa@mail.uc.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
