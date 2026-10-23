@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Oluwaseun Adekoya — Robotics Simulation & Physical AI Engineer, Ph.D. Candidate" width="100%">
+  <img src="assets/banner.png?v=2" alt="Oluwaseun Adekoya — Robotics Simulation & Physical AI Engineer, Ph.D. Candidate" width="100%">
 </p>
 
 <p align="center">
