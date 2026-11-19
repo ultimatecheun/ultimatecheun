@@ -13,8 +13,9 @@
 
 ## 👋 About
 
-I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering **Ph.D. candidate** with 6+ years of engineering experience. I build GPU-accelerated digital twins, AI Agents and learned robot policies, then validate them on real robots — the **Seeed reBot B601-RS**, **Yaskawa HC10** and **Neuromeka Indy RP2 v2**. Three connected tracks:
+I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering **Ph.D. candidate** with 6+ years of engineering experience. I build GPU-accelerated digital twins, AI Agents and learned robot policies, then validate them on real robots — the **Seeed reBot B601-RS**, **Yaskawa HC10**, **Neuromeka Indy RP2 v2** and **LingYu TeleAvatar** mobile manipulator. Four connected tracks:
 
+- 🧊 **Real-to-Sim** — 3D-scanning real lab equipment and workcells into accurate, simulation-ready CAD (STEP + textured OBJ) for MuJoCo, Unity, and Isaac Lab digital twins
 - 🖥️ **Simulation & Digital Twins** — NVIDIA Isaac Sim, Isaac Lab, MuJoCo and Gazebo digital twins of robotic workcells
 - 🤖 **AI Agents & Benchmarking** — LLM task planning; benchmarking frontier and open models, motion planners and perception models
 - 🎛️ **Motion Planning & Control** — PRM/SSM safety planning, reinforcement learning, NMPC and impedance control, validated on hardware
@@ -46,6 +47,7 @@ I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering
 ![RL](https://img.shields.io/badge/Reinforcement_Learning-16A085?style=for-the-badge&logoColor=white)
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI_Agents-6D28D9?style=for-the-badge&logoColor=white)
+![Teleoperation](https://img.shields.io/badge/Teleoperation-334155?style=for-the-badge&logoColor=white)
 ![PLC](https://img.shields.io/badge/PLC_Allen--Bradley-CC0000?style=for-the-badge&logoColor=white)
 
 **Programming & ML**
@@ -56,7 +58,7 @@ I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering
 ![JAX](https://img.shields.io/badge/JAX-D1495B?style=for-the-badge&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
-**Simulation & CAD**
+**Simulation, CAD & Real-to-Sim**
 ![Isaac Sim](https://img.shields.io/badge/NVIDIA_Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Isaac Lab](https://img.shields.io/badge/NVIDIA_Isaac_Lab-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-EF5B25?style=for-the-badge&logoColor=white)
@@ -65,6 +67,9 @@ I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-E1251B?style=for-the-badge&logo=dassaultsystemes&logoColor=white)
 ![Siemens NX](https://img.shields.io/badge/Siemens_NX-009999?style=for-the-badge&logo=siemens&logoColor=white)
 ![Fusion 360](https://img.shields.io/badge/Fusion_360-FF7A00?style=for-the-badge&logo=autodesk&logoColor=white)
+![3D Scanning](https://img.shields.io/badge/3D_Scanning-0F766E?style=for-the-badge&logoColor=white)
+![Real-to-Sim](https://img.shields.io/badge/Real--to--Sim-111827?style=for-the-badge&logoColor=white)
+![3D Printing](https://img.shields.io/badge/3D_Printing-6B7280?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -72,7 +77,8 @@ I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering
 
 | Project | Robot · Framework | Outcome |
 |---|---|---|
-| **AI-Agent Autopipetting & Dual-Arm Co-Manipulation** — MuJoCo laboratory digital twin; LLM-powered AI Agents turn liquid-volume requests and well IDs into executable pipetting sequences; RL policies for dual-arm grasping, twisting and cap opening; frontier-model benchmarking (OpenAI, Gemini APIs) | Seeed reBot B601-RS · MuJoCo · physical arms | Tube pick-and-place, complete pipetting and dual-arm cap opening in sim; deployed on physical reBot arms |
+| **BioManufacturing Lab Real-to-Sim Digital Twin** — 3D-scanned lab equipment (ultrasound system, bioprinter, CO₂ incubator, biosafety cabinet) rebuilt as accurate, simulation-ready CAD; scan-to-CAD deviation checks; incubator doors modeled as hinged bodies for humanoid training | 3D scanner · Fusion 360 · STEP + OBJ/MTL · MuJoCo | Sim-ready lab models joined with the pipetting workcell into a digital twin of the lab |
+| **AI-Agent Autopipetting & Dual-Arm Co-Manipulation** — MuJoCo laboratory digital twin; LLM-powered AI Agents turn liquid-volume requests and well IDs into executable pipetting sequences; RL policies for dual-arm grasping, twisting and cap opening; frontier-model benchmarking (OpenAI, Gemini APIs); physical test bed with 3D-printed modular base plates, risers and pipette rack | Seeed reBot B601-RS · MuJoCo · physical arms | Tube pick-and-place, complete pipetting and dual-arm cap opening in sim; deployed on physical reBot arms |
 | **CNC Machine-Tending Digital Twin & Collision Avoidance** — safety-aware planning; benchmarked HAMP, MARSHA, TPRM and RRTConnect | Yaskawa Motoman HC10 · NVIDIA Isaac Sim + Isaac Lab | >98.5% SSM compliance; collision checks in 10–11 ms per 50 samples; ~6 s look-ahead |
 | **Vision-Guided Robotic Fastener Removal** — benchmarked AprilTag, SAM6D and FoundationPose for 6-DoF pose estimation | Neuromeka Indy RP2 v2 · MuJoCo · eye-in-hand RGB-D | 91% success in >800 physical tests (team study); 98.64% RL + impedance screwdriving success |
 | **RL Waypoint Planning with NMPC Tracking** — GPU-accelerated TD3 waypoint policies tracked by NMPC/acados | Neuromeka Indy RP2 v2 · MuJoCo · PyTorch/CUDA | 89.5% goal-reaching on 200 held-out scenarios |
@@ -81,12 +87,16 @@ I am a **Robotics Simulation & Physical AI Engineer** and Mechanical Engineering
 
 <table>
 <tr>
+<td width="50%"><a href="https://youtu.be/9y3HUtwqI8g"><img src="https://img.youtube.com/vi/9y3HUtwqI8g/hqdefault.jpg" width="100%" alt="BioManufacturing Lab: Real-to-Sim Digital Twin"></a><br><sub><b>BioManufacturing Lab: Real-to-Sim Digital Twin</b></sub></td>
 <td width="50%"><a href="https://youtu.be/3rb769MB9e4"><img src="https://img.youtube.com/vi/3rb769MB9e4/hqdefault.jpg" width="100%" alt="Tube Pick and Place in AutoPipetting"></a><br><sub><b>Tube Pick and Place in AutoPipetting</b></sub></td>
-<td width="50%"><a href="https://youtu.be/giQeTF8lGh4"><img src="https://img.youtube.com/vi/giQeTF8lGh4/hqdefault.jpg" width="100%" alt="Complete Autonomous Pipetting"></a><br><sub><b>Complete Autonomous Pipetting</b></sub></td>
 </tr>
 <tr>
 <td width="50%"><a href="https://youtu.be/xMwJ1SWWnY8"><img src="https://img.youtube.com/vi/xMwJ1SWWnY8/hqdefault.jpg" width="100%" alt="Dual-Arm Co-Manipulation in AutoPipetting"></a><br><sub><b>Dual-Arm Co-Manipulation in AutoPipetting</b></sub></td>
+<td width="50%"><a href="https://youtu.be/T0EteThdpAA"><img src="https://img.youtube.com/vi/T0EteThdpAA/hqdefault.jpg" width="100%" alt="Teleoperated Pipette Tip Insertion (LingYu TeleAvatar)"></a><br><sub><b>Teleoperated Pipette Tip Insertion (LingYu TeleAvatar)</b></sub></td>
+</tr>
+<tr>
 <td width="50%"><a href="https://youtu.be/wuv14iRI6VE"><img src="https://img.youtube.com/vi/wuv14iRI6VE/hqdefault.jpg" width="100%" alt="CNC Tending Cell — Full Automation (Fanuc CRX)"></a><br><sub><b>CNC Tending Cell — Full Automation (Fanuc CRX)</b></sub></td>
+<td width="50%"><a href="https://youtu.be/d_Hdr60VmrA"><img src="https://img.youtube.com/vi/d_Hdr60VmrA/hqdefault.jpg" width="100%" alt="NMPC Modeling"></a><br><sub><b>NMPC Modeling</b></sub></td>
 </tr>
 </table>
 
@@ -165,7 +175,7 @@ More demos on the **[portfolio site →](https://ultimatecheun.github.io)**
 
 ## 🤝 Let's Connect
 
-Open to **Summer 2027 internships and full-time roles from May 2027** in robotics simulation, physical AI, and controls.
+Open to **Summer 2027 internships and full-time roles from May 2027** in robotics simulation, physical AI, real-to-sim and controls.
 
 <a href="https://ultimatecheun.github.io"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/oluwaseun-abiodun-adekoya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
